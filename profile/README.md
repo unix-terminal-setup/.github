@@ -12,3 +12,15 @@ A couple of repositories with bash scripts to setup terminal utilities, for quic
 - All scripts include `set -euo pipefail` to add safety options, which will stop execution if a command fails, pipe command fails or trying to use
   undefined variables.
 - Initial focus is on using these on the `Ubuntu distro` (apt/snap) and `MacOS Sonoma` (brew).
+
+## Dot Files Notes
+
+- The dot files we share are aimed at being used on both a Linux and MacOS machine.
+
+## Terminal
+
+We recommend using a cross-platform terminal to keep your experience the same. Have a look at:
+
+- [Hyper](https://hyper.is/)
+- [Alacritty](https://alacritty.org/)
+- [WezTerm](https://wezfurlong.org/wezterm/)
