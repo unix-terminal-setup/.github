@@ -5,8 +5,12 @@
 
 A couple of repositories with bash scripts to setup terminal utilities, for quickly setting up a new Linux or MacOS machine.
 
+Note: `We are currently transitioning old Linux only scripts to support both Linux and MacOS`
+
 ## Shell Scripting Notes
 
+- MacOS specific scripts are prefixed with `macos-`
+- Linux specific scripts are prefixed with `linux-`
 - Scripts are written in `Bash`.
 - Shebang is by default: `#!/usr/bin/env bash`
 - All scripts include `set -euo pipefail` to add safety options, which will stop execution if a command fails, pipe command fails or trying to use
